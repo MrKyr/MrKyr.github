@@ -70,11 +70,11 @@ sass:
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
   - github-pages
+  # - jekyll-feed
+  # - jekyll-paginate
+  # - jekyll-sitemap
+  # - jekyll-seo-tag
   # - jekyll-archives
 
 # Exclude from processing.
