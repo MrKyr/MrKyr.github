@@ -13,15 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your title
-email: your-email@example.com
-name: Your name
+title: Corali Designs Co.
+logo: logo.png # corali red color #ef4a4f
+# email: your-email@example.com
+name: "Mr.Kyr"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here.
+  Signs and Graphic Designs
 keywords: [Your keywords]
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-domain: "example.com" # the domain name for your site, e.g. example.com
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "enlighting.eu" # the domain name for your site, e.g. example.com
 language: en
 # Supported languages list:
 # en: English
@@ -33,16 +34,21 @@ language: en
 # zh-cn: 简体中文 (Simplified Chinese)
 # zh-tw: 繁體中文 (Traditional Chinese)
 
+contact:
+  twitter: coralisigns
+  instagram: mr.kyr
+  email: kyr@enlighting.eu
+
 analytics:   # the Google Analytics property ID, e.g. UA-XXXXX-Y
 
 paginate: 25
 paginate_path: "/page:num/"
 
-comments: false  # enable comments
-disqus:          # disqus account
+comments: true  # enable comments
+disqus: 'httpmrkyrgithubio'         # disqus account
 
-mathjax: true # Mathematics
-mermaid: true # Diagrams
+mathjax: false # Mathematics
+mermaid: false # Diagrams
 
 permalink: /:year/:month/:day/:title
 
@@ -72,11 +78,12 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .jekyll-cache/

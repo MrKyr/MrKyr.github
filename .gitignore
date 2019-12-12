@@ -4,9 +4,11 @@ _site
 # cache
 .sass-cache
 .jekyll-metadata
+.jekyll-cache
 
 # gem lock file
 Gemfile.lock
+Gemfile.bak
 
 # Mac OSX
 .DS_Store

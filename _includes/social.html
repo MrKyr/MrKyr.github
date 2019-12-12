@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-envelope {
+  background: black;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #5851DB;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+</style>
+
+<a href="mailto:{{ site.contact.twitter }}" class="fa fa-envelope"></a>
+<a href="https://twitter.com/{{ site.contact.twitter }}" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/{{ site.contact.instagram }}" class="fa fa-instagram"></a>
+<a href="/feed.xml" class="fa fa-rss"></a>

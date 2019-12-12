@@ -1,6 +1,7 @@
 en:
   menu_index: "Index"
   menu_category: "Categories"
+  menu_tag: "Tags"
   menu_about: "About"
   paginator_previous: "Previous"
   paginator_pages: "Page: "
@@ -13,6 +14,7 @@ en:
   post_previous: "Previous: "
   post_next: "Next: "
   categories_title: "Categories"
+  tags_title: "Tags"
 
 de:
   menu_index: "Index"

@@ -10,6 +10,13 @@ layout: default
     <span>{{ site.name }}</span>
   </div>
   <div class="post-content">
+    {% if page.image %}
+    {% if page.image contains "://" %}
+    <img src="{{ page.image }}"><br>
+    {% else %}
+    <img src="/assets/images/{{ page.image }}"><br>
+    {% endif %}
+    {% endif %}
     {{ content }}
   </div>
   <div class="post-info">

@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+h1, h2, h3, h4, h5, h6 {
+     margin-top: 20px!important;
+}
+
+pre.highlight {
+    font-size: 15px;
+    padding: 10px;
+}
+
+// Bold text category/tag name
+.categories-list {
+     font-weight: bold;
+}
+.posts-list-item-date {
+     font-weight: normal;
+}
+
+// Footnote number color
+.footnote {
+     color: red;
+}
+
+/* Wrap image text */
+.img-left {
+    float:left;
+    margin-top:-2px!important;
+    margin-right:20px!important;
+    height:190px;
+}
+.img-right {
+    float:right;
+    margin-top:-2px!important;
+    margin-left:20px!important;
+    height:190px;
+}
+
+// Text styles
+.text-justify {
+  text-align: justify !important; }
+
+.text-left {
+  text-align: left !important; }
+
+.text-right {
+  text-align: right !important; }
+
+.text-center {
+  text-align: center !important; }
+
+// Lists dot color
+ul {
+     // color:#ef4a4f;
+}
+
+// Change Links color except in menu header and in categories list in front page
+a {
+     color:blue;
+}
+a:hover {
+    color:grey;
+    // font-weight: bold;
+}     
+.header-nav a, 
+.posts-list-item a {
+    color: black;
+}
+.header-nav a:hover, 
+.posts-list-item a:hover {
+    color: grey;
+}
+// .post-content a, .post-tools a {
+//      color:blue;
+// }
+// .post-content a:hover , .post-tools a:hover {
+//     color:grey;
+//     // font-weight: bold;
+// }     
+
+
+// Banners
+.banner-red {
+    background-color:#ffdddd!important;
+    border-left:6px solid #ccc!important;
+    border-color:#f44336!important;
+    padding: 10px;
+}
+.banner-yellow {
+    background-color:#fff7e0!important;
+    border-left:6px solid #ccc!important;
+    border-color:#ffbc00!important;
+    padding: 10px;
+}
+.banner-green {
+    background-color:#d5ebe2!important;
+    border-left:6px solid #ccc!important;
+    border-color:#0e6942!important;
+    padding: 10px;
+    font-style: italic!important;
+}
+
+// Alerts like banners
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem; 
+}
+.alert-warning {
+    color: black;
+    background-color: #ffde03;
+border-color: #ffde03; }
+.alert-warning hr {
+border-top-color: #e9ca00; }
+.alert-warning .alert-link {
+    color: #cfb400; 
+}
+.alert-danger {
+    color: white;
+    background-color: #ea2f65;
+border-color: #ea2f65; }
+.alert-danger hr {
+border-top-color: #e81854; }
+.alert-danger .alert-link {
+    color: #d1154b; 
+}
+.alert-success {
+    color: white;
+    background-color: #03a87c;
+border-color: #03a87c; }
+.alert-success hr {
+border-top-color: #038f6a; }
+.alert-success .alert-link {
+    color: #027657; 
+}
+.alert-info {
+    color: black;
+    background-color: #09ebaf;
+border-color: #09ebaf; }
+.alert-info hr {
+border-top-color: #08d29d; }
+.alert-info .alert-link {
+    color: #07ba8a; 
+}

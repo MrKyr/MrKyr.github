@@ -1,5 +1,10 @@
 <div class="header-info">
+  {% if site.logo %}
+  <img style="width:150px;margin-bottom:-4px" src="/assets/images/{{ site.logo }}">
+  {% else %}
   <span class="header-info-name">{{ site.title }}</span>
+  {% endif %}
+
   <span class="header-info-desc">{{ site.description }}</span>
 </div>
 <nav class="header-nav">
