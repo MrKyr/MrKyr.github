@@ -27,7 +27,6 @@ layout: default
       <span>{{ site.data.lang[site.language].post_categories }}</span>
       {% for category in page.categories %}
       <a 
-        <!-- href="{{ site.baseurl }}/category/{{ category | slugify }}" --> 
         href="{{ site.baseurl }}/category/{{ category }}" 
         class="post-category">
         {{ category }}
