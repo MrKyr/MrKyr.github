@@ -50,7 +50,7 @@ disqus: 'httpmrkyrgithubio'         # disqus account
 mathjax: false # Mathematics
 mermaid: false # Diagrams
 
-permalink: /:year/:month/:day/:title
+# permalink: /:year/:month/:day/:title
 
 sass:
   sass_dir: _sass
