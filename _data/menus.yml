@@ -1,11 +1,11 @@
 - default: menu_index
-  url:   ""
+  url: ''
 
-- default: menu_categories
-  url:   "categories"
+- default: menu_category
+  url: 'categories'
 
 - default: menu_tag
-  url:   "tag"
+  url:   "tags"
 
 # - title: "Jekyll Paper"
 #   absoluteUrl: true
