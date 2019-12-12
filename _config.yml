@@ -71,12 +71,12 @@ jekyll-archives:
 markdown: kramdown
 
 plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-seo-tag
   - github-pages
-  # - jekyll-feed
-  # - jekyll-paginate
-  # - jekyll-sitemap
-  # - jekyll-seo-tag
-  # - jekyll-archives
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
