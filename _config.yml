@@ -58,14 +58,14 @@ sass:
   style: expanded # compressed, compact, expanded or compressed
 
 # Category settings
-jekyll-archives:
-  enabled: 
-    - categories
-    - tags
-  layout: archive
-  permalinks:
-    category: /category/:name/
-    tag: /tag/:name/
+# jekyll-archives:
+#   enabled: 
+#     - categories
+#     - tags
+#   layout: archive
+#   permalinks:
+#     category: /category/:name/
+#     tag: /tag/:name/
 
 # Build settings
 markdown: kramdown
@@ -73,9 +73,9 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-archives
   - jekyll-seo-tag
   - github-pages
+  # - jekyll-archives
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
