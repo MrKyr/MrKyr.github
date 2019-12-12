@@ -73,9 +73,9 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-archives
   - jekyll-seo-tag
-  - github-pages
+  # - github-pages
+  # - jekyll-archives
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
