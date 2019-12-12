@@ -51,6 +51,7 @@ mathjax: false # Mathematics
 mermaid: false # Diagrams
 
 # permalink: /:year/:month/:day/:title
+permalink: /:title
 
 sass:
   sass_dir: _sass
