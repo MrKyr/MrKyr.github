@@ -21,6 +21,9 @@ pre.highlight {
 .footnote {
      color: red;
 }
+// .footnotes li {
+     // margin-top: -5px;
+// }
 
 /* Wrap image text */
 .img-left {
@@ -78,6 +81,27 @@ a:hover {
 //     // font-weight: bold;
 // }     
 
+li {
+     // padding: 5px;
+     margin: 4px;
+}
+
+// Buttons
+.button {
+  padding: 10px 10px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+.button:hover {
+    border: 2px solid green;
+}
+a.button:hover {
+     color: green;
+}
 
 // Banners
 .banner-red {
@@ -144,3 +168,28 @@ border-top-color: #08d29d; }
 .alert-info .alert-link {
     color: #07ba8a; 
 }
+
+// Social icons
+.fa {
+    width: 20px;
+}
+
+.fa-social {
+    color: grey;
+    font-size: 30px!important;
+    margin-right: 10px;
+}
+
+.fa-envelope:hover {
+    color: green;
+}
+.fa-twitter:hover {
+    color: #55ACEE;
+}
+.fa-instagram:hover {
+    color: #5851DB;
+}
+.fa-rss:hover {
+    color: #ff6600;
+}
+

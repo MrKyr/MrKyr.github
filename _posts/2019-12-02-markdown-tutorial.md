@@ -408,7 +408,13 @@ Make any link standout more when applying the .btn class.
 [Dark Button](http://google.com){: .btn .btn-dark}
 
 
+```
+[<i class="fa fa-warning" aria-hidden="true"></i>My Button](#){: .button}
+[My button](#){: .button}
+```
 
+[<i class="fa fa-warning" aria-hidden="true"></i>My Button](#){: .button}
+[My button](#){: .button}
 
 
 ## Spoiler
