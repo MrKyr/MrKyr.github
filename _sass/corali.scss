@@ -17,9 +17,14 @@ h1, h2, h3, h4, h5, h6 {
 .footnote {
      color: red;
 }
-// .footnotes li {
+.footnotes ol {
      // margin-top: -5px;
-// }
+     color: red;
+}
+.footnotes p {
+     // margin-top: -5px;
+     color: black;
+}
 
 /* Wrap image text */
 .img-left {
