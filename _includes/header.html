@@ -5,12 +5,21 @@
   <span class="header-info-name">{{ site.title }}</span>
   {% endif %}
 
+  <!-- scroll to top from|: https://github.com/vfeskov/vanilla-back-to-top -->
+  <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+  <script>addBackToTop({
+    diameter: 56,
+    backgroundColor: 'rgb(255, 82, 82)',
+    //cornerOffset: 100,
+    textColor: '#fff'
+  })</script>
+
   <span class="header-info-desc">{{ site.description }}</span>
 </div>
 <nav class="header-nav">
   <ul class="header-main-nav">
-  {% for item in site.data.menus %}
+    {% for item in site.data.menus %}
     <li class="header-main-nav-item"><a href="{% if item.absoluteUrl != true %}{{ site.baseurl }}/{% endif %}{{ item.url }}">{% if item.default %}{{ site.data.lang[site.language][item.default] }}{% else %}{{ item.title }}{% endif %}</a></li>
-  {% endfor %}
+    {% endfor %}
   </ul>
 </nav>
