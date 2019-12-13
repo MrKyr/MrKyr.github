@@ -4,10 +4,6 @@ h1, h2, h3, h4, h5, h6 {
      margin-top: 20px!important;
 }
 
-pre.highlight {
-    font-size: 15px;
-    padding: 10px;
-}
 
 // Bold text category/tag name
 .categories-list {
@@ -84,6 +80,11 @@ a:hover {
 li {
      // padding: 5px;
      margin: 4px;
+}
+
+p {
+    line-height: 25px!important;
+     
 }
 
 // Buttons

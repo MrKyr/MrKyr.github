@@ -1,20 +1,24 @@
 @charset "utf-8";
 
 .highlight > pre, pre.highlight {
-  line-height: 18px;
-  margin: 10px 0;
-  padding-left: 3px;
-  border: 1px solid #ccc;
-  overflow-x: auto;
-  font-size: 14px;
-  text-indent: 0px;
-  // background-color: #eee;
-  // background-color: white;
-  // color: white;
-  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+    line-height: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow-x: auto;
+    font-family: Courier New, Courier, monospace!important;
+    font-size: 14px;
+    text-indent: 0px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+pre.highlight code {
+    font-family: Courier New, Courier, monospace!important;
+    font-size: 16px;
 }
 
 .highlighter-rouge {
-  font-size: 14px;
-  background-color: #eee;
+    font-family: Courier New, Courier, monospace!important;
+    font-size: 16px;
+    background-color: #eee;
+    color: #ef4a4f;
 }
