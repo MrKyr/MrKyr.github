@@ -176,21 +176,27 @@ border-top-color: #08d29d; }
 }
 
 .fa-social {
-    color: grey;
+    color: grey!important;
     font-size: 30px!important;
-    margin-right: 10px;
+    margin-right: 15px!important;
 }
 
 .fa-envelope:hover {
-    color: green;
+    color: green!important;
 }
 .fa-twitter:hover {
-    color: #55ACEE;
+    color: #55ACEE!important;
 }
 .fa-instagram:hover {
-    color: #5851DB;
+    color: #5851DB!important;
 }
 .fa-rss:hover {
-    color: #ff6600;
+    color: #ff6600!important;
+}
+
+.fa-social-nav {
+    color: grey!important;
+    font-size: 22px!important;
+    margin-right: 8px;
 }
 

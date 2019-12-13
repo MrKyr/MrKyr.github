@@ -19,6 +19,7 @@ layout: default
     {% endif %}
     {{ content }}
   </div>
+  <hr>
   <div class="post-info">
     <div class="post-date">
       {{ site.data.lang[site.language].post_write_date }}{{ page.date | date: "%Y-%m-%d" }}{% if page.last_modified_at %}, {{ site.data.lang[site.language].post_update_date }}{{ page.last_modified_at | date: "%Y-%m-%d" }}{% endif %}.
@@ -46,7 +47,7 @@ layout: default
         <span>{{ site.data.lang[site.language].post_previous }}</span><a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
       </div>
       {% endif %}
-    </div>
+    </div><br>
     {% if site.comments %}
       {% include comments.html %}
     {% endif %}
