@@ -19,7 +19,7 @@ layout: default
     {% endif %}
     {{ content }}
   </div>
-  <hr>
+  <img class="stamp" src="/assets/images/stamp.jpg">
   <div class="post-info">
     <div class="post-date">
       {{ site.data.lang[site.language].post_write_date }}{{ page.date | date: "%Y-%m-%d" }}{% if page.last_modified_at %}, {{ site.data.lang[site.language].post_update_date }}{{ page.last_modified_at | date: "%Y-%m-%d" }}{% endif %}.
@@ -49,7 +49,7 @@ layout: default
       {% endif %}
     </div><br>
     {% if site.comments %}
-      {% include comments.html %}
+    {% include comments.html %}
     {% endif %}
   </div>
 </article>

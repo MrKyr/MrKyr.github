@@ -27,7 +27,16 @@
 
 .post-info {
     line-height: 24px;
-    margin: 10px 0;
+    margin: 20px 0;
+    padding: 10px;
+}
+.stamp {
+    position: absolute;
+    z-index: -1;
+    margin: -30px 0px;
+    width: 200px;
+    background-repeat: no-repeat;
+    opacity: .15;
 }
 
 .post-category, .post-tag {
