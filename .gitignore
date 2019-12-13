@@ -12,3 +12,6 @@ Gemfile.bak
 
 # Mac OSX
 .DS_Store
+
+# Blog index
+index.md
