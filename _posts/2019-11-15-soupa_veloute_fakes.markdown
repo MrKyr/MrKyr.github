@@ -3,7 +3,7 @@ layout: post
 author: kyr
 date: 2019-11-15 12:22:04 +0200
 last_modified_at: 2019-12-05 12:22:04 +0200
-title: Βελουτέ σούπα φακές
+title: Βελουτέ σούπα φακές
 image: fakes.jpg
 description:
 category: Cooking
