@@ -205,3 +205,97 @@ border-top-color: #08d29d; }
     margin-right: 8px;
 }
 
+// Footnotes
+
+/* enclose footnote indicator number inside [] */
+a.footnote:before {   
+    content: "["
+}
+a.footnote:after {
+    content: "]"
+}
+
+article .footnotes :target {
+    -webkit-animation: target-fade 3s 1;
+    -moz-animation: target-fade 3s 1;
+}
+@-webkit-keyframes target-fade {
+    0% { background-color: yellow; }
+    100% { background-color: rgba(0,0,0,0); }
+}
+@-moz-keyframes target-fade {
+    0% { background-color: #ef4a4f; }
+    100% { background-color: rgba(0,0,0,0); }
+}
+
+// Comments github
+
+#gh-comments-list {
+    list-style: none;
+    list-style-type:none
+}
+
+#gh-comments-list li {
+    margin: 0;
+    padding: 1.5em 0;
+    display: flex;
+    flex-wrap: wrap;
+    // border-top:1px solid #aaa
+    border-top:1px solid lightgrey
+}
+
+#gh-comments-list li > a.user {
+    width: 4.5em;
+    height: 4.5em;
+    overflow: hidden;
+    // padding:3px
+}
+
+#gh-comments-list li > a.user img {
+    // border-radius: 50%;
+    // border: 3px solid #fff;
+    // box-shadow:0 0 3px #aaa
+}
+
+#gh-comments-list li > a.comment-url {
+    width: 100%;
+    text-align: right;
+    font-size: .8em;
+    // opacity:.5
+}
+
+// #gh-comments-list li > a.comment-url:hover {
+    // opacity:1
+// }
+
+#gh-comments-list li .comment-content {
+    padding:0 1.5em
+}
+
+#leave-a-comment {
+    // background: #000;
+    // color: #fff;
+    // padding:1rem
+}
+
+#leave-a-comment a {
+    // text-decoration: underline;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: red!important;
+    // color: #000;
+    // color: #fff;
+    // border-bottom-color: #fff!important;
+    // outline-color:#fff
+}
+
+#no-comments-found {
+    font-size: .8rem;
+    display:none
+}
+
+img.avatar {
+    max-width: 100%;
+    height:auto
+}
+

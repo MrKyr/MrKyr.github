@@ -6,6 +6,10 @@
   </div>
 {% endfor %}
 
+{% if page.comments_id %}
+{% include comments.html %}
+{% endif %}
+
 {% if paginator.total_pages > 1 %}
   <div class="posts-list-pagination">
     {% if paginator.previous_page %}

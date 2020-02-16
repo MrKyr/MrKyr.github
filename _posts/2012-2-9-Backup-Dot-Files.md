@@ -5,6 +5,7 @@ title: Backup Dot Files
 description: Backup & gzip all the hiden files from your [linux](http://kernel.org "kernel.org") home directory.
 category: [Coding]
 tags: [linux]
+comments_id: 5
 ---
 
 ### Code:
